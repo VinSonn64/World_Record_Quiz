@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+ <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+	    
+        <link rel="stylesheet" href="Records.css">
+
+<script>
+	    var score=0;
+	    var i=0;
+	    var Questions= new Array();
+	    Questions[0]="Jeanne Louise Calment was the worlds oldest person passing away at what age?";
+	    Questions[1]="Johanna Quass is known to be the oldest Gymnast at what age?";
+	    Questions[2]="Thomas Blackthorne was able to perform the heaviest weight lift by tongue at what weight?";
+	    Questions[3]="Ashrita Furman was able to balance a pool cue on his chin and travel how many meters?";
+	    Questions[4]="The Heaviest aircraft pulled by man belongs to Kevin Fast pulling how many pounds?";
+	    Questions[5]="Fastest sack race in one mile was performed by Ashrita Furman clocking in at what time?";
+	    Questions[6]="The Midnight Rider is known to be the heaviest limousine, weighing in at what?";
+	    Questions[7]="The Longest sword to be swallowed was from Natasha Veruschka measuring at how many inches?";
+	    Questions[8]="The fastest bird moving at a level flight 78.9mph belongs to which bird?";
+	    Questions[9]="Leslie Tipton has the fastest to enter a suitcase in how many seconds?";
+
+	    var Answers = new Array();
+	    Answers[0]="Answer was A: Jeanne lived a total of 122 years and 164 days.";
+	    Answers[1]="Answer was C: Johanna was still a regular competitor at age 86.";
+	    Answers[2]="Answer was D: Thomas was able to lift 27lb and 9 ounces with his tongue.";
+	    Answers[3]="Answer was A: Ashrita traveled 1,668m or 5472 ft and 9 in. That’s over a mile!";
+	    Answers[4]="Answer was C: He pulled a CC-177 Globemaster III, weighing in at 416,299 lb for 28 feet.";
+	    Answers[5]="Answer was C: He made the whole trip in a sack in 16min 41sec.";
+	    Answers[6]="Answer was A: The Midnight Rider weighs in at 50,560lb. It was basically a semi truck.";
+	    Answers[7]="Answer was D: She swallowed a sword measuring 22.83 inches.";
+	    Answers[8]="Answer was B: The Albatross can fly for miles at highway speeds without diving!";
+	    Answers[9]="Answer was A: She was able to enter a suitcase in 5.43 seconds.";
+	  
+
+	  function displayQuestion(Question)
+	  {
+	    document.write(Question);
+	  }
+
+	    function addscore(){
+	  score++;  //code
+	  }
+	  function showScore()
+	  {alert("Your score was "+ score + " out of 10.")}
+ </script>
+</head>
+ 
+ 
+<body>
+<div style="width: 100%">
+<form name="Question1" class="fancy">
+	    <img src="Oldest.jpg" width=200px, height=300px style="float: right"><br>
+	    <script>displayQuestion(Questions[0]);</script><br>
+	    <label><input type="button" id="q1" value="A" onclick=addscore(),alert(Answers[0]);>122</label><br>
+	     <label><input type="button" id="q1" value="B" onclick=alert(Answers[0])>142</label><br>
+	     <label><input type="button" id="q1" value="C" onclick=alert(Answers[0])>107</label><br>
+	     <label> <input type="button" id="q1" value="D" onclick=alert(Answers[0])>156</label><br>
+	     <br>
+	    
+</form>
+</div>
+<br><br><br><br><br><br><br><br><br>
+<div style="width: 100%">
+<form name="Question2" class="fancy">
+	    <img src="Gymnast.jpg" width=200px, height=280px style="float: right"><br>
+	    <script>displayQuestion(Questions[1]);</script><br>
+	    <label><input type="button" id="q2" value="A" onclick=alert(Answers[1])>74</label><br>
+	     <label><input type="button" id="q2" value="B" onclick=alert(Answers[1])>92</label><br>
+	     <label><input type="button" id="q2" value="C" onclick=addscore(),alert(Answers[1])>86</label><br>
+	     <label> <input type="button" id="q2" value="D" onclick=alert(Answers[1])>65</label><br>
+	     <br>
+</form>
+</div>
+<br><br><br><br><br><br><br><br><br>
+<div style="width: 100%">
+<form name="Question3" class="fancy">
+	    <img src="Tonguelift.jpg" width=300px, height=280px style="float: right"><br>
+	    <script>displayQuestion(Questions[2]);</script><br>
+	    <label><input type="button" id="q3" value="A" onclick=alert(Answers[2])>35lb</label><br>
+	     <label><input type="button" id="q3" value="B" onclick=alert(Answers[2])>45lb</label><br>
+	     <label><input type="button" id="q3" value="C" onclick=alert(Answers[2])>17lb</label><br>
+	     <label> <input type="button" id="q3" value="D" onclick=addscore(),alert(Answers[2])>27lb</label><br>
+	     <br>
+</form>
+</div>
+<br><br><br><br><br><br><br><br><br>
+<div style="width: 100%">
+<form name="Question4" class="fancy">
+	    <img src="Balance.jpg" width=280px, height=280px style="float: right"><br>
+	    <script>displayQuestion(Questions[3]);</script><br>
+	    <label><input type="button" id="q4" value="A" onclick=addscore(),alert(Answers[3])>1668m</label><br>
+	     <label><input type="button" id="q4" value="B" onclick=alert(Answers[3])>1560m</label><br>
+	     <label><input type="button" id="q4" value="C" onclick=alert(Answers[3])>1204m</label><br>
+	     <label> <input type="button" id="q4" value="D" onclick=alert(Answers[3])>1198m</label><br>
+	     <br>
+</form>
+</div>
+<br><br><br><br><br><br><br><br><br>
+<div style="width: 100%">
+<form name="Question5" class="fancy">
+	    <img src="Pull.jpg" width=250px, height=280px style="float: right"><br>
+	    <script>displayQuestion(Questions[4]);</script><br>
+	    <label><input type="button" id="q5" value="A" onclick=alert(Answers[4])>340,000lb</label><br>
+	     <label><input type="button" id="q5" value="B" onclick=alert(Answers[4])>540,000lb</label><br>
+	     <label><input type="button" id="q5" value="C" onclick=addscore(),alert(Answers[4])>420,000lb</label><br>
+	     <label> <input type="button" id="q5" value="D" onclick=alert(Answers[4])>200,000lb</label><br>
+	     <br>
+</form>
+</div>
+<br><br><br><br><br><br><br><br><br>
+<div style="width: 100%">
+<form name="Question6" class="fancy">
+	    <img src="Sackrace.jpeg" width=200px, height=280px style="float: right"><br>
+	    <script>displayQuestion(Questions[5]);</script><br>
+	    <label><input type="button" id="q6" value="A" onclick=alert(Answers[5])>23min 18sec</label><br>
+	     <label><input type="button" id="q6" value="B" onclick=alert(Answers[5])>12min 45sec</label><br>
+	     <label><input type="button" id="q6" value="C" onclick=addscore(),alert(Answers[5])>16min 41sec</label><br>
+	     <label> <input type="button" id="q6" value="D" onclick=alert(Answers[5])>8min 4sec</label><br>
+	     <br>
+</form>
+</div>
+<br><br><br><br><br><br><br><br><br>
+<div style="width: 100%">
+<form name="Question7" class="fancy">
+	    <img src="limo.jpg" width=350px, height=280px style="float: right"><br>
+	    <script>displayQuestion(Questions[6]);</script><br>
+	    <label><input type="button" id="q7" value="A" onclick=addscore(),alert(Answers[6])>50,000lb</label><br>
+	     <label><input type="button" id="q7" value="B" onclick=alert(Answers[6])>30,000lb</label><br>
+	     <label><input type="button" id="q7" value="C" onclick=alert(Answers[6])>80,000</label><br>
+	     <label> <input type="button" id="q7" value="D" onclick=alert(Answers[6])>20,000lb</label><br>
+	     <br>
+</form>
+</div>
+<br><br><br><br><br><br><br><br><br>
+<div style="width: 100%">
+<form name="Question8" class="fancy">
+	    <img src="SwordSwallow.jpg" width=250px, height=280px style="float: right"><br>
+	    <script>displayQuestion(Questions[7]);</script><br>
+	    <label><input type="button" id="q8" value="A" onclick=alert(Answers[7])>30in</label><br>
+	     <label><input type="button" id="q8" value="B" onclick=alert(Answers[7])>42in</label><br>
+	     <label><input type="button" id="q8" value="C" onclick=alert(Answers[7])>15in</label><br>
+	     <label> <input type="button" id="q8" value="D" onclick=addscore(),alert(Answers[7])>23in</label><br>
+	     <br>
+</form>
+</div>
+<br><br><br><br><br><br><br><br><br>
+<div style="width: 100%">
+<form name="Question9" class="fancy">
+	    <img src="Albatross.jpg" width=350px, height=280px style="float: right"><br>
+	    <script>displayQuestion(Questions[8]);</script><br>
+	    <label><input type="button" id="q9" value="A" onclick=alert(Answers[8])>Golden Eagle</label><br>
+	     <label><input type="button" id="q9" value="B" onclick=addscore(),alert(Answers[8])>Grey Headed Albatross</label><br>
+	     <label><input type="button" id="q9" value="C" onclick=alert(Answers[8])>Peregrine Falcon</label><br>
+	     <label> <input type="button" id="q9" value="D" onclick=alert(Answers[8])>Spur Winged Goose</label><br>
+	     <br>
+</form>
+</div>
+<br><br><br><br><br><br><br><br><br>
+<div style="width: 100%">
+<form name="Question10" class="fancy">
+	    <img src="Suitcase.jpg" width=270px, height=280px style="float: right"><br>
+	    <script>displayQuestion(Questions[9]);</script><br>
+	    <label><input type="button" id="q10" value="A" onclick=addscore(),alert(Answers[9])>5 seconds</label><br>
+	     <label><input type="button" id="q10" value="B" onclick=alert(Answers[9])>10 seconds</label><br>
+	     <label><input type="button" id="q10" value="C" onclick=alert(Answers[9])>15 seconds</label><br>
+	     <label> <input type="button" id="q10" value="D" onclick=alert(Answers[9])>20 seconds</label><br>
+	     
+</form>
+</div>
+	
+</body>
+<footer>
+<br><br><br><input type="button" id="score" value="Check Score" onclick=showScore()>
+</footer>
+</html>

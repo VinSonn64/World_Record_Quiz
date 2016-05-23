@@ -1,0 +1,15 @@
+.fancy
+{
+    font-family: sans-serif;
+    font-size: larger;
+}
+div
+{
+  background-color: #dddddd;
+}
+#score
+{
+    position: absolute;
+    bottom: auto;
+    font-size: larger;
+}
